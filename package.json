@@ -4,7 +4,7 @@
   "description": "advanced css course",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
   },
   "author": "skndungu",
   "license": "ISC",
